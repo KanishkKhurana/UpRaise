@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {HiMenuAlt4} from 'react-icons/hi'
 import {AiOutlineClose} from 'react-icons/ai'
-import logo from '../../images/logo.png'
+import CompanyLogo from '../../images/CompanyLogo.png'
 
 const NavbarItem = ({title, classProps}) => (
     
@@ -17,7 +17,7 @@ export default function Navbar() {
   return (
     <nav className="w-full flex md:justify-center justify-between items-center p-1">
       <div className="md:flex-[0.5] flex-initial justify-center items-center">
-        <img src={logo} alt="logo" className="w-64 cursor-pointer" />
+        <img src={CompanyLogo} alt="logo" className="w-64 cursor-pointer" />
       </div>
       <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
         {["Market", "Exchange", "Tutorials", "Wallets"].map((item,index) => (
