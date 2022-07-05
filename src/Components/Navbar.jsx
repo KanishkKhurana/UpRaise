@@ -5,21 +5,21 @@ import CompanyLogo from '../../images/CompanyLogo.png'
 
 const NavbarItem = ({title, classProps}) => (
     
-        <li className={`mx-4 cursor-pointer ${classProps}`}>
+        <li className={`mx-4 px-1 cursor-pointer ${classProps}`}>
           {title}
         </li>
     
 );
 
 export default function Navbar() {
-  const [toggleMenu, setToggleMenu] = React.useState(false);
+  const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
     <nav className="w-full flex md:justify-center justify-between items-center p-1">
       <div className="md:flex-[0.5] flex-initial justify-center items-center">
         <img src={CompanyLogo} alt="logo" className="w-64 cursor-pointer" />
       </div>
-      <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
+      <ul className="text-white md:flex hidden list-none flex-row justify-evenly items-center flex-initial">
         {["Market", "Exchange", "Tutorials", "Wallets"].map((item,index) => (
           <NavbarItem key={item+index} title={item}/>
         ))}
@@ -40,7 +40,7 @@ export default function Navbar() {
             <li className="text-xl w-full my-2">
               <AiOutlineClose onClick={()=> setToggleMenu(false)}/></li>
               {["Market", "Exchange", "Tutorials", "Wallets"].map((item,index) =>
-          <NavbarItem key={item+index} title={item} classProps="my-2 text-lg" />,
+          <NavbarItem key={item+index} title={item} classProps="m-2 text-lg" />,
         )}
 
           </ul>
