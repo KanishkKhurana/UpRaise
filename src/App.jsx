@@ -1,5 +1,5 @@
 
-import Footer from './components/Footer'
+import Footer from './Components/Footer'
 import Navbar from './Components/Navbar'
 import Services from './Components/Services'
 import Transactions from './Components/Transactions'
