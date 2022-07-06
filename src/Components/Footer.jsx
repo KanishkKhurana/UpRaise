@@ -27,7 +27,7 @@ const Footer = () => (
       <p className="text-white text-left text-xs">@KanishkKhurana_</p>
       
 
-      <a href=""><p className="text-white text-right text-xs">Github Repo</p></a>
+      <a href="https://github.com/KanishkKhurana/Lumos-Labs-Hiring-Project"><p className="text-white text-right text-xs">Github Repo</p></a>
     </div>
   </div>
 );
