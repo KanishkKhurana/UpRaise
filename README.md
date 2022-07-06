@@ -1,5 +1,5 @@
-#Supra Protocol
-###Hiring Project for Lumos Labs by Kanishk Khurana
+# Supra Protocol
+### Hiring Project for Lumos Labs by Kanishk Khurana
 This app has been built using the following tech stack-
 1)React.JS
 2)Tailwindcss
