@@ -1,5 +1,9 @@
 
-import {Navbar, Footer, Services, Transactions, Welcome} from './components/Index'
+import Footer from './components/Footer'
+import Navbar from './Components/Navbar'
+import Services from './Components/Services'
+import Transactions from './Components/Transactions'
+import Welcome from './Components/Welcome'
 
 const App = () => {
   return (
