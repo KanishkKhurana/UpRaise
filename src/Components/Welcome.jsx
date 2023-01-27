@@ -118,7 +118,7 @@ axios(config)
           <h3 className="text-xl font-semibold pb-2">For Citizen Investors</h3>
           We have also opened our platform to retail investors! <br /> You can now invest in startups and earn a return on your investment.
           </p>
-          <Link href="/invest" className="px-3 py-2 bg-pink-600 font-bold text-white rounded-xl mt-3 hover:bg-pink-400">Click here to Invest</Link>
+          <Link to="/invest" className="px-3 py-2 bg-pink-600 font-bold text-white rounded-xl mt-3 hover:bg-pink-400">Click here to Invest</Link>
           <br />
         </div>
           
